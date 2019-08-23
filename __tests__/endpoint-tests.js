@@ -60,7 +60,6 @@ describe("HTTP Request Tests", () => {
             password: "password"
           })
           .then(res => {
-            console.log(res);
             expect(res.status).toBe(200);
           });
       });
